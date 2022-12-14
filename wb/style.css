@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #101010;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+} 
+
+.logo{
+    text-decoration: none;
+    color: #6d0000 ;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    position: relative;
+    right: 50px;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #7B241C ;
+    font-weight: 500;
+    font-size: 1.1em ;
+    padding-left: 25px;
+    transition: 0.7s ease; 
+    position: relative;
+    left: 130px;
+}
+
+.navigation a:hover{
+    color: #CB8D00 ;
+    transform: scale(1.1);
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {   
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(img/thumb-1920-714764.jpg) no-repeat; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+
+.main h2{
+    display: inline-block;
+    margin-top: 10px;
+    color: #4A2100;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main-btn {
+    font-style: normal;
+    background-color: #101010;
+    color: #6d0000 ;
+    text-decoration: none;
+    font-size: 2.2em;
+    font-weight: 450;
+    display: inline-block;
+    padding: 17px 17px;
+    letter-spacing: 0.7px;
+    border-radius: 25px;
+    transition: 0.8s ease;
+    position: relative;
+    top: -150px; left: -185px;
+}
+
+.main-btn:hover {
+    background-color: #080808 ;
+    transform: scale(1.1);
+}
+
+.title {
+    text-shadow: 0 5px 25px rgba(255 0 0.5/ 20%);
+    display: flex;
+    justify-content: center;
+    color: #000000 ;
+    font-size: 2.5em;
+    font-weight:700;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: #101010;
+    width: 22.25em;
+    box-shadow: 0 5px 25px rgba(255 0  0.5 / 40%);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 25px;
+    transition: 0.8s ease;
+}
+
+.card:hover {
+    background-color: #080808 ;
+    transform: scale(1.1);
+}
+
+.info1 h3 {
+    color: #6d0000;
+    margin: 1px;
+    text-align: center;
+}
+
+.info1 p {
+    color: #ffffff;
+    text-align: center;
+}
+
+.category {
+    background: url(img/6342068.jpg) no-repeat; 
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.icon {
+    background: url(img/1967_charge_cars_ford_mustang_4k_3-2560x1440.jpg) no-repeat; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    border-radius: 10px;
+    padding: 80px;
+    margin: 5px;
+}
+ .icon2 {
+    background: url(img/icegif-4818.gif) no-repeat; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    border-radius: 10px;
+    padding: 80px;
+    margin: 5px;
+ }
+.icon3 {
+    background: url(img/mercedes_benz_mercedes_amg_front_view_silver_wood_100115_1920x1080.jpg) no-repeat; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    border-radius: 10px;
+    padding: 80px;
+    margin: 5px;
+}
+
+.button1 {
+    background-color: rgb(10, 10, 10);
+    color: #6d0000;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    font-size: 30px;
+    font-weight: 600;
+}
